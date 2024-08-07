@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "independent", // 每个子项目使用独立的版本号
+  "npmClient": "pnpm", // 设置npm工具，默认为npm,也可以设置成yarn
+  "private": true // 防止根项目被发布
+}
